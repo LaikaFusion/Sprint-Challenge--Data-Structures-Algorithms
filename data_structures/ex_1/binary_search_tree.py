@@ -4,12 +4,17 @@ class BinarySearchTree:
     self.left = None
     self.right = None
 
-  # def depth_first_for_each(self, cb):
-  #   def search(self,value,cb):
-  #     if self.left is not None:
-  #       search(self,self.left,)
-  #     if self.right is not None:
-        
+  def depth_first_for_each(self, cb):
+    def search(self):
+      if self.left is not None:
+        cb(self.left.value)
+        search(self.left)
+      if self.right is not None:
+        cb(self.right.value)
+        search(self.right)
+
+    cb(self.value)
+    search(self)
 
   def breadth_first_for_each(self, cb):
 
