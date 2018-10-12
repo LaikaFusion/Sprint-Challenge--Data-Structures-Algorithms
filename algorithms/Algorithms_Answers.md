@@ -2,8 +2,8 @@ Add your answers to the Algorithms exercises here.
 
 Excercise 1
 A. O(N)
-B. O(N**4)
-C. O(2**N)
+B. O(N^4)
+C. O(N)
 
 Excercise 2
 Make a binary search tree, the root being __f__//2
