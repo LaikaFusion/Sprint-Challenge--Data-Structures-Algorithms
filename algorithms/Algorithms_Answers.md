@@ -2,7 +2,7 @@ Add your answers to the Algorithms exercises here.
 
 Excercise 1
 A. O(N)
-B. O(N^4)
+B. O(n^3)
 C. O(N)
 
 Excercise 2
